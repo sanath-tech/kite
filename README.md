@@ -212,8 +212,9 @@ python3 plot_three_method_camera_trajectories.py \
   --geometry-dir outputs/kite/kitscenes_test_kite_geometry_actions_bicycle \
   --output-dir outputs/kite/three_method_camera_trajectory_plots \
   --limit 25
+```
 
-##  Citation
+## Citation
 
 ```bibtex
 @misc{wagner2026longtaildrivingscenariosreasoning,
@@ -225,6 +226,12 @@ python3 plot_three_method_camera_trajectories.py \
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2603.23607}
 }
-```
 
-The plot script overlays Gemma 4 vanilla model, Kinematic, and Kinematics V2 / KITE. It also writes the driving instruction and Gemma language output into the figure.
+@article{nvidia2025alpamayo,
+      title={{Alpamayo-R1}: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail},
+      author={NVIDIA and Yan Wang and Wenjie Luo and Junjie Bai and Yulong Cao and Tong Che and Ke Chen and Yuxiao Chen and Jenna Diamond and Yifan Ding and Wenhao Ding and Liang Feng and Greg Heinrich and Jack Huang and Peter Karkus and Boyi Li and Pinyi Li and Tsung-Yi Lin and Dongran Liu and Ming-Yu Liu and Langechuan Liu and Zhijian Liu and Jason Lu and Yunxiang Mao and Pavlo Molchanov and Lindsey Pavao and Zhenghao Peng and Mike Ranzinger and Ed Schmerling and Shida Shen and Yunfei Shi and Sarah Tariq and Ran Tian and Tilman Wekel and Xinshuo Weng and Tianjun Xiao and Eric Yang and Xiaodong Yang and Yurong You and Xiaohui Zeng and Wenyuan Zhang and Boris Ivanovic and Marco Pavone},
+      year={2025},
+      journal={arXiv preprint arXiv:2511.00088},
+}
+
+```
