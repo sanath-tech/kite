@@ -212,6 +212,19 @@ python3 plot_three_method_camera_trajectories.py \
   --geometry-dir outputs/kite/kitscenes_test_kite_geometry_actions_bicycle \
   --output-dir outputs/kite/three_method_camera_trajectory_plots \
   --limit 25
+
+##  Citation
+
+```bibtex
+@misc{wagner2026longtaildrivingscenariosreasoning,
+  title={LongTail Driving Scenarios with Reasoning Traces: The KITScenes LongTail Dataset},
+  author={Royden Wagner and Omer Sahin Tas and Jaime Villa and Felix Hauser and Yinzhe Shen and Marlon Steiner and Dominik Strutz and Carlos Fernandez and Christian Kinzig and Guillermo S. Guitierrez-Cabello and Hendrik Königshof and Fabian Immel and Richard Schwarzkopf and Nils Alexander Rack and Kevin Rösch and Kaiwen Wang and Jan-Hendrik Pauls and Martin Lauer and Igor Gilitschenski and Holger Caesar and Christoph Stiller},
+  year={2026},
+  eprint={2603.23607},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2603.23607}
+}
 ```
 
 The plot script overlays Gemma 4 vanilla model, Kinematic, and Kinematics V2 / KITE. It also writes the driving instruction and Gemma language output into the figure.
