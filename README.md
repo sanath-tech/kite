@@ -163,16 +163,6 @@ y_{t+1} = y_t + v_{t+1} sin(theta_{t+1}) dt
 
 The final output is a 25-point local ego-frame trajectory.
 
-## Current Test Artifacts
-
-The local KITE run completed all 400 KITScenes test samples for the main method and both baselines.
-
-| Role | Method | Internal key | Rows | Output |
-| --- | --- | --- | ---: | --- |
-| Main KITE method | Kinematics V2 / KITE | `geometry_actions_bicycle` | 400 | geometry-aware bicycle rollout |
-| Baseline 1 | Kinematic | `language_actions_bicycle` | 400 | language actions plus plain bicycle rollout |
-| Baseline 2 | Gemma 4 vanilla model | `direct_waypoints_egohistory` | 400 | direct waypoint prediction |
-
 ## Quick Start
 
 Install Python dependencies:
