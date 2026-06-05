@@ -1,6 +1,6 @@
-# KITE: Kinematic Interpretable Trajectory Estimation
+# KITE-VLM: Kinematic Interpretable Trajectory Estimation with Vision-Language Models
 
-KITE is a KITScenes trajectory-prediction method that asks Gemma for interpretable driving intent and road geometry, then converts that language into physical waypoints with a bicycle model.
+KITE-VLM is a trajectory-prediction method for KITScenes Long-tail Scenario dataset that asks Gemma 4 Zero shot for interpretable driving intent and road geometry, then converts that language into physical waypoints with a bicycle model.
 
 ## Method Summary
 
